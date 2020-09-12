@@ -7,15 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E02040BF24F629CE009E3A9C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02040BE24F629CE009E3A9C /* DetailViewController.swift */; };
 		E036631124F4949900F470CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E036631024F4949900F470CD /* AppDelegate.swift */; };
 		E036631324F4949900F470CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E036631224F4949900F470CD /* SceneDelegate.swift */; };
 		E036631524F4949900F470CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E036631424F4949900F470CD /* ViewController.swift */; };
 		E036631824F4949900F470CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E036631624F4949900F470CD /* Main.storyboard */; };
 		E036631A24F4949A00F470CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E036631924F4949A00F470CD /* Assets.xcassets */; };
 		E036631D24F4949A00F470CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E036631B24F4949A00F470CD /* LaunchScreen.storyboard */; };
+		E036638224F4963500F470CD /* IMG_6146.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = E036636324F4963500F470CD /* IMG_6146.HEIC */; };
+		E036638324F4963500F470CD /* IMG_6150.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = E036636424F4963500F470CD /* IMG_6150.HEIC */; };
+		E036638424F4963500F470CD /* IMG_6151.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = E036636524F4963500F470CD /* IMG_6151.HEIC */; };
+		E036638524F4963500F470CD /* IMG_6147.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = E036636624F4963500F470CD /* IMG_6147.HEIC */; };
+		E036638624F4963500F470CD /* ärr och tumvinkel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E036636824F4963500F470CD /* ärr och tumvinkel.jpg */; };
+		E036638724F4963500F470CD /* ärr och tumvinkel 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E036636924F4963500F470CD /* ärr och tumvinkel 5.jpg */; };
+		E036638824F4963500F470CD /* ärr och tumvinkel 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E036636A24F4963500F470CD /* ärr och tumvinkel 4.jpg */; };
+		E036638924F4963500F470CD /* ärr och tumvinkel 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E036636B24F4963500F470CD /* ärr och tumvinkel 6.jpg */; };
+		E036638A24F4963500F470CD /* ärr och tumvinkel 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E036636C24F4963500F470CD /* ärr och tumvinkel 7.jpg */; };
+		E036638B24F4963500F470CD /* ärr och tumvinkel 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E036636D24F4963500F470CD /* ärr och tumvinkel 3.jpg */; };
+		E036638C24F4963500F470CD /* ärr och tumvinkel 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E036636E24F4963500F470CD /* ärr och tumvinkel 2.jpg */; };
+		E036638D24F4963500F470CD /* ärr och tumvinkel 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E036636F24F4963500F470CD /* ärr och tumvinkel 1.jpg */; };
+		E036638E24F4963500F470CD /* vänster ovanifrån.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E036637024F4963500F470CD /* vänster ovanifrån.jpg */; };
+		E036638F24F4963500F470CD /* ärr och tumvinkel 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E036637124F4963500F470CD /* ärr och tumvinkel 8.jpg */; };
+		E036639024F4963500F470CD /* höger ovanifrån.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E036637224F4963500F470CD /* höger ovanifrån.jpg */; };
+		E036639124F4963500F470CD /* vänster insida.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E036637324F4963500F470CD /* vänster insida.jpg */; };
+		E036639224F4963500F470CD /* vänster knuten.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E036637424F4963500F470CD /* vänster knuten.jpg */; };
+		E036639324F4963500F470CD /* höger insida.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E036637524F4963500F470CD /* höger insida.jpg */; };
+		E036639424F4963500F470CD /* höger knuten.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E036637624F4963500F470CD /* höger knuten.jpg */; };
+		E036639524F4963500F470CD /* IMG_6156.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = E036637724F4963500F470CD /* IMG_6156.HEIC */; };
+		E036639624F4963500F470CD /* IMG_6157.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = E036637824F4963500F470CD /* IMG_6157.HEIC */; };
+		E036639724F4963500F470CD /* IMG_6154.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = E036637924F4963500F470CD /* IMG_6154.HEIC */; };
+		E036639824F4963500F470CD /* IMG_6143.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = E036637A24F4963500F470CD /* IMG_6143.HEIC */; };
+		E036639924F4963500F470CD /* IMG_6155.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = E036637B24F4963500F470CD /* IMG_6155.HEIC */; };
+		E036639A24F4963500F470CD /* IMG_6152.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = E036637C24F4963500F470CD /* IMG_6152.HEIC */; };
+		E036639B24F4963500F470CD /* IMG_6144.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = E036637D24F4963500F470CD /* IMG_6144.HEIC */; };
+		E036639C24F4963500F470CD /* IMG_6148.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = E036637E24F4963500F470CD /* IMG_6148.HEIC */; };
+		E036639D24F4963500F470CD /* IMG_6149.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = E036637F24F4963500F470CD /* IMG_6149.HEIC */; };
+		E036639E24F4963500F470CD /* IMG_6145.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = E036638024F4963500F470CD /* IMG_6145.HEIC */; };
+		E036639F24F4963500F470CD /* IMG_6153.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = E036638124F4963500F470CD /* IMG_6153.HEIC */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E02040BE24F629CE009E3A9C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		E036630D24F4949900F470CD /* project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E036631024F4949900F470CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E036631224F4949900F470CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +56,36 @@
 		E036631924F4949A00F470CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E036631C24F4949A00F470CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E036631E24F4949A00F470CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E036636324F4963500F470CD /* IMG_6146.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_6146.HEIC; sourceTree = "<group>"; };
+		E036636424F4963500F470CD /* IMG_6150.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_6150.HEIC; sourceTree = "<group>"; };
+		E036636524F4963500F470CD /* IMG_6151.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_6151.HEIC; sourceTree = "<group>"; };
+		E036636624F4963500F470CD /* IMG_6147.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_6147.HEIC; sourceTree = "<group>"; };
+		E036636824F4963500F470CD /* ärr och tumvinkel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ärr och tumvinkel.jpg"; sourceTree = "<group>"; };
+		E036636924F4963500F470CD /* ärr och tumvinkel 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ärr och tumvinkel 5.jpg"; sourceTree = "<group>"; };
+		E036636A24F4963500F470CD /* ärr och tumvinkel 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ärr och tumvinkel 4.jpg"; sourceTree = "<group>"; };
+		E036636B24F4963500F470CD /* ärr och tumvinkel 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ärr och tumvinkel 6.jpg"; sourceTree = "<group>"; };
+		E036636C24F4963500F470CD /* ärr och tumvinkel 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ärr och tumvinkel 7.jpg"; sourceTree = "<group>"; };
+		E036636D24F4963500F470CD /* ärr och tumvinkel 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ärr och tumvinkel 3.jpg"; sourceTree = "<group>"; };
+		E036636E24F4963500F470CD /* ärr och tumvinkel 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ärr och tumvinkel 2.jpg"; sourceTree = "<group>"; };
+		E036636F24F4963500F470CD /* ärr och tumvinkel 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ärr och tumvinkel 1.jpg"; sourceTree = "<group>"; };
+		E036637024F4963500F470CD /* vänster ovanifrån.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "vänster ovanifrån.jpg"; sourceTree = "<group>"; };
+		E036637124F4963500F470CD /* ärr och tumvinkel 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ärr och tumvinkel 8.jpg"; sourceTree = "<group>"; };
+		E036637224F4963500F470CD /* höger ovanifrån.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "höger ovanifrån.jpg"; sourceTree = "<group>"; };
+		E036637324F4963500F470CD /* vänster insida.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "vänster insida.jpg"; sourceTree = "<group>"; };
+		E036637424F4963500F470CD /* vänster knuten.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "vänster knuten.jpg"; sourceTree = "<group>"; };
+		E036637524F4963500F470CD /* höger insida.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "höger insida.jpg"; sourceTree = "<group>"; };
+		E036637624F4963500F470CD /* höger knuten.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "höger knuten.jpg"; sourceTree = "<group>"; };
+		E036637724F4963500F470CD /* IMG_6156.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_6156.HEIC; sourceTree = "<group>"; };
+		E036637824F4963500F470CD /* IMG_6157.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_6157.HEIC; sourceTree = "<group>"; };
+		E036637924F4963500F470CD /* IMG_6154.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_6154.HEIC; sourceTree = "<group>"; };
+		E036637A24F4963500F470CD /* IMG_6143.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_6143.HEIC; sourceTree = "<group>"; };
+		E036637B24F4963500F470CD /* IMG_6155.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_6155.HEIC; sourceTree = "<group>"; };
+		E036637C24F4963500F470CD /* IMG_6152.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_6152.HEIC; sourceTree = "<group>"; };
+		E036637D24F4963500F470CD /* IMG_6144.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_6144.HEIC; sourceTree = "<group>"; };
+		E036637E24F4963500F470CD /* IMG_6148.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_6148.HEIC; sourceTree = "<group>"; };
+		E036637F24F4963500F470CD /* IMG_6149.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_6149.HEIC; sourceTree = "<group>"; };
+		E036638024F4963500F470CD /* IMG_6145.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_6145.HEIC; sourceTree = "<group>"; };
+		E036638124F4963500F470CD /* IMG_6153.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_6153.HEIC; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +121,59 @@
 				E036631024F4949900F470CD /* AppDelegate.swift */,
 				E036631224F4949900F470CD /* SceneDelegate.swift */,
 				E036631424F4949900F470CD /* ViewController.swift */,
+				E02040BE24F629CE009E3A9C /* DetailViewController.swift */,
 				E036631624F4949900F470CD /* Main.storyboard */,
 				E036631924F4949A00F470CD /* Assets.xcassets */,
 				E036631B24F4949A00F470CD /* LaunchScreen.storyboard */,
 				E036631E24F4949A00F470CD /* Info.plist */,
+				E036636224F4963500F470CD /* Content */,
 			);
 			path = project1;
+			sourceTree = "<group>";
+		};
+		E036636224F4963500F470CD /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				E036636324F4963500F470CD /* IMG_6146.HEIC */,
+				E036636424F4963500F470CD /* IMG_6150.HEIC */,
+				E036636524F4963500F470CD /* IMG_6151.HEIC */,
+				E036636624F4963500F470CD /* IMG_6147.HEIC */,
+				E036636724F4963500F470CD /* tumme */,
+				E036637724F4963500F470CD /* IMG_6156.HEIC */,
+				E036637824F4963500F470CD /* IMG_6157.HEIC */,
+				E036637924F4963500F470CD /* IMG_6154.HEIC */,
+				E036637A24F4963500F470CD /* IMG_6143.HEIC */,
+				E036637B24F4963500F470CD /* IMG_6155.HEIC */,
+				E036637C24F4963500F470CD /* IMG_6152.HEIC */,
+				E036637D24F4963500F470CD /* IMG_6144.HEIC */,
+				E036637E24F4963500F470CD /* IMG_6148.HEIC */,
+				E036637F24F4963500F470CD /* IMG_6149.HEIC */,
+				E036638024F4963500F470CD /* IMG_6145.HEIC */,
+				E036638124F4963500F470CD /* IMG_6153.HEIC */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		E036636724F4963500F470CD /* tumme */ = {
+			isa = PBXGroup;
+			children = (
+				E036636824F4963500F470CD /* ärr och tumvinkel.jpg */,
+				E036636924F4963500F470CD /* ärr och tumvinkel 5.jpg */,
+				E036636A24F4963500F470CD /* ärr och tumvinkel 4.jpg */,
+				E036636B24F4963500F470CD /* ärr och tumvinkel 6.jpg */,
+				E036636C24F4963500F470CD /* ärr och tumvinkel 7.jpg */,
+				E036636D24F4963500F470CD /* ärr och tumvinkel 3.jpg */,
+				E036636E24F4963500F470CD /* ärr och tumvinkel 2.jpg */,
+				E036636F24F4963500F470CD /* ärr och tumvinkel 1.jpg */,
+				E036637024F4963500F470CD /* vänster ovanifrån.jpg */,
+				E036637124F4963500F470CD /* ärr och tumvinkel 8.jpg */,
+				E036637224F4963500F470CD /* höger ovanifrån.jpg */,
+				E036637324F4963500F470CD /* vänster insida.jpg */,
+				E036637424F4963500F470CD /* vänster knuten.jpg */,
+				E036637524F4963500F470CD /* höger insida.jpg */,
+				E036637624F4963500F470CD /* höger knuten.jpg */,
+			);
+			path = tumme;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +234,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E036639E24F4963500F470CD /* IMG_6145.HEIC in Resources */,
 				E036631D24F4949A00F470CD /* LaunchScreen.storyboard in Resources */,
+				E036639924F4963500F470CD /* IMG_6155.HEIC in Resources */,
+				E036639A24F4963500F470CD /* IMG_6152.HEIC in Resources */,
+				E036639124F4963500F470CD /* vänster insida.jpg in Resources */,
+				E036639024F4963500F470CD /* höger ovanifrån.jpg in Resources */,
+				E036638424F4963500F470CD /* IMG_6151.HEIC in Resources */,
+				E036639524F4963500F470CD /* IMG_6156.HEIC in Resources */,
+				E036639C24F4963500F470CD /* IMG_6148.HEIC in Resources */,
+				E036638D24F4963500F470CD /* ärr och tumvinkel 1.jpg in Resources */,
+				E036638524F4963500F470CD /* IMG_6147.HEIC in Resources */,
+				E036639724F4963500F470CD /* IMG_6154.HEIC in Resources */,
+				E036638624F4963500F470CD /* ärr och tumvinkel.jpg in Resources */,
+				E036638F24F4963500F470CD /* ärr och tumvinkel 8.jpg in Resources */,
+				E036639824F4963500F470CD /* IMG_6143.HEIC in Resources */,
+				E036639324F4963500F470CD /* höger insida.jpg in Resources */,
+				E036639F24F4963500F470CD /* IMG_6153.HEIC in Resources */,
+				E036638B24F4963500F470CD /* ärr och tumvinkel 3.jpg in Resources */,
+				E036638224F4963500F470CD /* IMG_6146.HEIC in Resources */,
+				E036638924F4963500F470CD /* ärr och tumvinkel 6.jpg in Resources */,
+				E036638324F4963500F470CD /* IMG_6150.HEIC in Resources */,
 				E036631A24F4949A00F470CD /* Assets.xcassets in Resources */,
+				E036639424F4963500F470CD /* höger knuten.jpg in Resources */,
+				E036638C24F4963500F470CD /* ärr och tumvinkel 2.jpg in Resources */,
+				E036639B24F4963500F470CD /* IMG_6144.HEIC in Resources */,
+				E036639224F4963500F470CD /* vänster knuten.jpg in Resources */,
+				E036639D24F4963500F470CD /* IMG_6149.HEIC in Resources */,
+				E036638A24F4963500F470CD /* ärr och tumvinkel 7.jpg in Resources */,
+				E036639624F4963500F470CD /* IMG_6157.HEIC in Resources */,
+				E036638824F4963500F470CD /* ärr och tumvinkel 4.jpg in Resources */,
 				E036631824F4949900F470CD /* Main.storyboard in Resources */,
+				E036638724F4963500F470CD /* ärr och tumvinkel 5.jpg in Resources */,
+				E036638E24F4963500F470CD /* vänster ovanifrån.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +280,7 @@
 				E036631524F4949900F470CD /* ViewController.swift in Sources */,
 				E036631124F4949900F470CD /* AppDelegate.swift in Sources */,
 				E036631324F4949900F470CD /* SceneDelegate.swift in Sources */,
+				E02040BF24F629CE009E3A9C /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
