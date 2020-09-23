@@ -17,6 +17,12 @@ class ViewController: UITableViewController {
         // Do any additional setup after loading the view.
         title = "Hand Viewer"
         navigationController?.navigationBar.prefersLargeTitles = true
+        performSelector(inBackground: #selector(getPictures), with: nil)
+        // got error in getpictures function
+        tableView.performSelector(onMainThread: #selector(UITableView.reloadData), with: nil, waitUntilDone: false)
+    }
+    
+    @objc func getPictures(){
         
         let fm = FileManager.default
         let path = Bundle.main.resourcePath!
@@ -31,7 +37,10 @@ class ViewController: UITableViewController {
         }
         print(pictures)
         pictures.sort()
+        
+        
     }
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return pictures.count
     }
