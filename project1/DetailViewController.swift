@@ -15,11 +15,11 @@ class DetailViewController: UIViewController {
     var currentElement : Int = 0
     var totalElements : Int = 0
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         title = "Picture \(currentElement) of \(totalElements)"
-        
         navigationItem.largeTitleDisplayMode = .never
         
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(recommend))
@@ -28,6 +28,7 @@ class DetailViewController: UIViewController {
         if let imageToLoad = selectedImage{
             imageView.image = UIImage(named: imageToLoad)
         }
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
